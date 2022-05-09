@@ -5,18 +5,18 @@ import Navbar from './Navbar'
 
 const Layout = ({children}) => {
   return (
-    <div className='layout'>
+<div className="layout">
       <Head>
-          <title>FreeWalkSide Shop</title>
+        <title>WalkWithWoowx</title>
       </Head>
       <header>
-        <Navbar/>
+        <Navbar />
       </header>
-      <main className='main-container'>
+      <main className="main-container">
         {children}
       </main>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   )
